@@ -1,79 +1,200 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fin de formation Développeur Web et Web Mobile chez WebForce3 – promotion du 17 décembre 2019 au 9 avril 2020, intégralement composée de personnes avec une RQTH." />
+  <title>Fin de la Formation – Développeur Web / Web Mobile | WebForce3</title>
 
-	<head>
+  <!-- Lien vers la feuille de style -->
+  <link rel="stylesheet" href="./css/style.css" />
 
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Formation Développeur Web/Web Mobile, 3 mois et demi!">
-	
-	<title>WF3, site vitrine</title>
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/style.1.scss">
-	<link rel="stylesheet" href="css/animate.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css"></link>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	
-	
-	<script src="js/modernizr-2.6.2.min.js"></script>
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
 
-	</head>
+</head>
 
-<body>	
-<div class="accueil"></div>
-	
-<div id="page">
+<body>
 
-<div id="container" class="js-fullheight">
+  <!-- =====================================================
+       LIEN D'ÉVITEMENT (RGAA 12.7)
+  ====================================================== -->
+  <a class="skip-link" href="#contenu-principal">
+    Aller au contenu principal
+  </a>
 
-	<div class="countdown-wrap js-fullheight">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<div class="js-fullheight">
-					<div class="animate-box">
-						
-						<nav class="Title">
-							<div><a href="">WEBFORCE3</a></div>
-						</nav>
+  <!-- =====================================================
+       EN-TÊTE DU SITE
+  ====================================================== -->
+  <header class="site-header" role="banner">
+    <div class="site-header__inner">
 
+      <!-- Logo / Identité -->
+      <a class="site-header__brand" href="/" aria-label="WebForce3 – Retour à l'accueil">
+        <span class="site-header__logo-icon" aria-hidden="true">
+          <!-- Icône SVG décorative -->
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <path d="M12 2L2 7l10 5 10-5-10-5zm0 10L2 7v10l10 5 10-5V7L12 12z"/>
+          </svg>
+        </span>
+        <span class="site-header__logo-text">WebForce3</span>
+      </a>
 
-						<h2>Fin de la Formation!</h2>
-						<h2>Développeur Web / Web Mobile</h2>
+      <!-- Bouton burger pour mobile -->
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-controls="navigation-principale"
+        aria-expanded="false"
+        aria-label="Ouvrir le menu de navigation"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true"></span>
+      </button>
 
-						<div id="compte_a_rebours"><noscript><h3> le 9 juillet 2020 à 17h30.</h3></noscript></div>
-							
-						<div class="row">
+      <!-- Navigation principale -->
+      <nav
+        class="site-nav"
+        id="navigation-principale"
+        aria-label="Navigation principale"
+      >
+        <ul class="site-nav__list" role="list">
+          <li><a class="site-nav__link" href="#a-propos">La formation</a></li>
+          <li><a class="site-nav__link" href="#chiffres">Chiffres clés</a></li>
+          <li>
+            <a
+              class="site-nav__link"
+              href="https://www.wf3.fr/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WF3.fr
+              <!-- Indication ouverture nouvel onglet pour lecteurs d'écran -->
+              <span class="sr-only">(s'ouvre dans un nouvel onglet)</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-							<div class="col-md-12 desc">
-									<h2>Cette formation à débutée le 17 décembre 2019<br>Elle prendra fin le 9 avril 2020 <br>
-										 Elle fut intégralement composée de personne avec une RQTH</h2>
+    </div>
+  </header>
 
-									
-										<div class="col-md-12 col-md-offset-0">
-											<a href="https://www.wf3.fr/" class="btn">Rejoignez-nous</a>
-										</div>
-									
-									<div class="social-icons">
-									<ul class="social-icons">
-										<a href="#"><i class="fas fa-wheelchair"></i></a>
-										<a href="https://www.linkedin.com/school/webforce3/?originalSubdomain=fr"><i class="fab fa-linkedin"></i></a>
-										<a href="https://www.wf3.fr/centre/webforce-3-lille/"><i class="fas fa-graduation-cap"></i></a>
-										<a href="https://www.facebook.com/webforce3/"><i class="fab fa-facebook-square"></i></a>
-									</ul>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-cover js-fullheight" style="background-image:url('https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2018/09/Gestionnaire-du-parc-informatique-Copier.jpg');">
-			
-		</div>
-	</div>
-	</div>
+  <!-- =====================================================
+       CONTENU PRINCIPAL
+  ====================================================== -->
+  <main id="contenu-principal" tabindex="-1">
 
-	</body>
+    <!-- *** SECTION HERO *** -->
+    <section class="hero" aria-labelledby="hero-titre">
+      <div class="hero__inner">
+
+        <p class="hero__tag" aria-hidden="true">Promotion 2019 – 2020</p>
+
+        <h1 id="hero-titre" class="hero__title">
+          Fin de la Formation&nbsp;!
+        </h1>
+
+        <p class="hero__subtitle">
+          Développeur Web / Web Mobile
+        </p>
+
+        <p class="hero__date">
+          <time datetime="2020-04-09T17:30">Le 9 avril 2020 à 17h30</time>
+        </p>
+
+        <div class="hero__separator" aria-hidden="true"></div>
+
+      </div>
+    </section>
+
+    <!-- *** SECTION À PROPOS *** -->
+    <section class="section-about" id="a-propos" aria-labelledby="titre-about">
+      <div class="section-about__inner">
+
+        <h2 id="titre-about" class="section-about__title">
+          À propos de cette formation
+        </h2>
+
+        <p class="section-about__text">
+          Cette formation a débuté le
+          <time datetime="2019-12-17">17 décembre 2019</time>
+          et a pris fin le
+          <time datetime="2020-04-09">9 avril 2020</time>.
+          Elle fut intégralement composée de personnes bénéficiant d'une
+          <abbr title="Reconnaissance de la Qualité de Travailleur Handicapé">RQTH</abbr>,
+          dans une démarche d'inclusion et d'égalité des chances dans le numérique.
+        </p>
+
+        <!-- Chiffres clés -->
+        <h3 id="chiffres" class="sr-only">Chiffres clés de la formation</h3>
+
+        <ul class="stats" aria-labelledby="chiffres" role="list">
+          <li class="stats__item">
+            <span class="stats__value" aria-label="Durée">4 mois</span>
+            <span class="stats__label">de formation intensive</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__value" aria-label="Date de début">Déc. 2019</span>
+            <span class="stats__label">début de promotion</span>
+          </li>
+          <li class="stats__item">
+            <span class="stats__value" aria-label="Certification">100 %</span>
+            <span class="stats__label">apprenants RQTH</span>
+          </li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- *** SECTION CTA *** -->
+    <section class="section-cta" aria-labelledby="titre-cta">
+      <div class="section-cta__inner">
+
+        <h2 id="titre-cta" class="section-cta__title">
+          Rejoignez-nous&nbsp;!
+        </h2>
+
+        <p class="section-cta__text">
+          Vous souhaitez vous former au développement web&nbsp;?
+          Découvrez les formations WebForce3 et rejoignez notre communauté.
+        </p>
+
+        <a
+          class="btn btn--primary"
+          href="https://www.wf3.fr/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Rejoindre WebForce3 (s'ouvre dans un nouvel onglet)"
+        >
+          Découvrir WebForce3
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =====================================================
+       PIED DE PAGE
+  ====================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="site-footer__inner">
+      <p>
+        &copy; <time datetime="2020">2020</time>
+        <a href="https://www.wf3.fr/" target="_blank" rel="noopener noreferrer">
+          WebForce3
+          <span class="sr-only">(s'ouvre dans un nouvel onglet)</span>
+        </a>
+        – Formation Développeur Web / Web Mobile
+      </p>
+    </div>
+  </footer>
+
+  <!-- =====================================================
+       SCRIPT : Menu burger accessible
+  ====================================================== -->
+  <script src="./js/app.js"></script>
+
+</body>
 </html>
